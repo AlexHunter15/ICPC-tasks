@@ -10,6 +10,7 @@ int КручеГор(int m, int n) {
     }
 
     int result;
+    
     if (m < 0) {
         result = 0;
     }
