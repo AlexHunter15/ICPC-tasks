@@ -32,6 +32,5 @@ int main() {
             cout << 2 << " " << new_row << " " << new_col << endl;
         }
     }
-
     return 0;
 }
