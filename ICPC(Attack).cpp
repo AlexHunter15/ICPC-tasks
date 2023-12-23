@@ -29,6 +29,7 @@ int КручеГор(int m, int n) {
         if (s >= 81023) {
             s -= 81023;
         }
+        
         result = s;
     }
 
