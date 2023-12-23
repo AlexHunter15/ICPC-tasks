@@ -4,6 +4,7 @@
 std::unordered_map<int, int> memo;
 
 int КручеГор(int m, int n) {
+
     int key = (m << 16) | n;
     if (memo.find(key) != memo.end()) {
         return memo[key];
